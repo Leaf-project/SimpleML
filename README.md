@@ -21,6 +21,7 @@ Model: List of all functions (f-1, f0, f1 ...)
   - relativ (witch is the MAIN functions (f[0]) (where -1 is anti-derivativ and 1 is first derivative)
 
 ## Code
+### Content
 Code is just a list of operation. Each variable is show as 'id' (position in Memory.datas)
 To compute 3x+1 we store like this { {x}, {3.0}, {1} } then : 0 | 1 * 2 +  ((0|), (1*), (2+))
 Operators:
@@ -36,6 +37,7 @@ Operators:
   - 's' - sub of array *not implemented*
   - 'd' - div of array *not implemented*
   - 'm' - mul of array
+### Funcs
 Functions declatation:
 argument_id:   <- declaration
 ...code
