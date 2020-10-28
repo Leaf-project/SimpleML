@@ -40,9 +40,11 @@ Operators:
 ### Funcs
 Functions declatation:
 
-```argument_id:   <- declaration
+```
+argument_id:   <- declaration
 ...code
-return_var_id# <- end```
+return_var_id# <- end
+```
 
 First decladed function is named 0, second 1 ...
 To call first func : 0)
