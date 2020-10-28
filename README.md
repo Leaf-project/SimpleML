@@ -28,7 +28,7 @@ Operators:
   - ) - call functions
   - + - add
   - - - sub
-  - * - mul
+  - '*' - mul
   - / - div
   - ^ - pow
   - @ - dot product
