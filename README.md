@@ -64,4 +64,4 @@ With data : 0.0:1 / 2.718281828459045:1 / -1.0:1 / 1.0:1 / 0.0:1   ('/' separate
 $(0) - is argument x, $(1) - is euler number, $(2) is -1 (to make -x), $(3) is 1, $(4) is a temporaty value
 
 ## Exec
-Use bin/compute.exe to execute some code with arguments : config_file and level_exec  (actually for compiled for linux, to make for windows : g++ 
+Use bin/compute.exe to execute some code with arguments : config_file and level_exec  (actually for compiled for linux, to make for windows : g++ compute.cpp -o bin/compute.exe
