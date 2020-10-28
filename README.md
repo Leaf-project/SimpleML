@@ -56,10 +56,10 @@ logistic(x) = 1 / ( 1 + e**(-x) )
 ```
 With data : 0.0:1 / 2.718281828459045:1 / -1.0:1 / 1.0:1 / 0.0:1   ('/' separate each variables in form of {lis of values}:{shape})
 ```
-0:
-0|2*
-4|1=0^3+2^
-4#
+0:             // when calling func by : fnid) , fnid is passed to $0
+0|2*           // -0   <=>  -x
+4|1=0^3+2^     // $4 = (((e)^$0))+1)^-1)  => $4 = 1 / (e^(-x) + 1)
+4#             // return 4 (as id, not as value)
 ```
 $(0) - is argument x, $(1) - is euler number, $(2) is -1 (to make -x), $(3) is 1, $(4) is a temporaty value
 
