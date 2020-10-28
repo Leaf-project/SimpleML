@@ -1,6 +1,12 @@
 #include "Kernel/c++/head/init.h"
 #include "Kernel/c++/head/compute.h"
 
+/*
+Programme to compute an Memory in a Model from a config file.
+Arg0 - path to config file
+Arg1 - level in Model
+*/
+
 int main(int argc, char **argv) {
 	if (argc < 3) {
 		std::cout << "No enougth args\n";
