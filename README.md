@@ -23,19 +23,19 @@ Model: List of all functions (f-1, f0, f1 ...)
 ## Code
 Code is just a list of operation. Each variable is show as 'id' (position in Memory.datas)
 To compute 3x+1 we store like this { {x}, {3.0}, {1} } then : 0 | 1 * 2 +  ((0|), (1*), (2+))
-*Operators*:
-  | - set target
-  ) - call functions
-  + - add
-  - - sub
-  * - mul
-  / - div
-  ^ - pow
-  @ - dot product
-  a - sum of array (Σ ) *not implemented*
-  s - sub of array *not implemented*
-  d - div of array *not implemented*
-  m - mul of array
+Operators:
+  - | - set target
+  - ) - call functions
+  - + - add
+  - - - sub
+  - * - mul
+  - / - div
+  - ^ - pow
+  - @ - dot product
+  - a - sum of array (Σ ) *not implemented*
+  - s - sub of array *not implemented*
+  - d - div of array *not implemented*
+  - m - mul of array
 Functions declatation:
 argument_id:   <- declaration
 ...code
